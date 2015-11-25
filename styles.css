@@ -1,18 +1,18 @@
 body {
     text-align: center;
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: lighter;
 }
 h1 {
     color: #262261;
     font-family: Helvetica;
-    font-size: 28px;
+    font-size: 36px;
     margin: 05px;
     font-weight: lighter;
 }
 p {
-    font-size: 13px; 
+    font-size: 24px; 
     color: #7D7D7D;
     margin: 0;
     font-weight: normal;
@@ -21,8 +21,8 @@ p {
     display: inline;
 }
 article {
-    width: 480px;
-    padding: 20px;
+    width: 550px;
+    padding: 28px;
     margin: 0 auto;
     color: #404041;
    
@@ -35,23 +35,26 @@ article {
 .timer{
     height: 300px;
     align-content: center;
-    margin: 300px 0 0 0;
+    margin: 450px 0 0 0;
 }
 .logo{
     position: absolute;
     bottom: 0;
     margin: 0 0 40px -105px;
 }
+#beep{
+    font-size: 18px; 
+}
 #pause{
     display: inline;
 }
 .button {
     display: inline-block;
-    border-radius:10px;
-    line-height:44px;
-    padding:0 40px;
+    border-radius:12px;
+    line-height:52px;
+    padding:0 50px;
     margin: 05px;
-    font-size: 18px;
+    font-size: 24px;
     font-family: Roboto;
     font-weight: normal;
     color: #262261;
@@ -76,8 +79,8 @@ article {
     display: inline-block;
     border:solid #262261;
     border-radius: 13px;
-    height: 04px;
-    width: 300px;
+    height: 05px;
+    width: 450px;
     padding: 2px;
     absolute; 
     top: 0;
@@ -96,8 +99,8 @@ article {
     display: inline-block;
     relative;
     height: 05px;
-    width: 450px;
-    margin: 0 0 20px 55px;
+    width: 600px;
+    margin: 10px 0 35px 80px;
 }
 #time{
     display: inline-block;
@@ -110,19 +113,21 @@ article {
     absolute; 
     top: 0;
     right: 0;
+    font-size: 17px;
 }
 #ss{
     display: inline-block;
     absolute; 
     top: 0;
     right: 0;
+    font-size: 17px;
 }
 #compleat {
     display: inline-block;
     border:solid #262261;
     border-radius: 13px;
     height: 04px;
-    width: 300px;
+    width: 350px;
     padding: 2px;
     
 }
