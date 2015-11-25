@@ -32,10 +32,22 @@ article {
     align-content: center;
     margin: 220px 0 0 0;
 }
-.timer{
+# hurry{
+    position:absolute;
+    top:50%;
+    left:50%;
     height: 300px;
     align-content: center;
-    margin: 450px 0 0 0;
+    margin: -100px 0 0 -340px;
+    
+}
+.timer{
+    position:absolute;
+    top:50%;
+    left:50%;
+    height: 300px;
+    align-content: center;
+    margin: -100px 0 0 -340px;
 }
 .logo{
     position: absolute;
@@ -81,8 +93,7 @@ article {
     border-radius: 13px;
     height: 05px;
     width: 450px;
-    padding: 2px;
-    absolute; 
+    padding: 2px; 
     top: 0;
     left: 0;
 }
@@ -93,34 +104,28 @@ article {
     width: 0;
     height: 100%;
     border-radius: 10px;
+    transition:width 1s linear;
 }
 
 #container{
     display: inline-block;
-    relative;
     height: 05px;
     width: 600px;
     margin: 10px 0 35px 80px;
 }
 #time{
     display: inline-block;
-    absolute; 
-    top: 0;
-    right: 0;
+}
+#time p {
+        font-size: 19px;
 }
 #mm{
     display: inline-block;
-    absolute; 
-    top: 0;
-    right: 0;
-    font-size: 17px;
+    width:23px;
 }
 #ss{
     display: inline-block;
-    absolute; 
-    top: 0;
-    right: 0;
-    font-size: 17px;
+    width:23px;
 }
 #compleat {
     display: inline-block;
@@ -141,3 +146,11 @@ article {
     border-radius: 10px;
 }
 
+#animation {
+    position:absolute;
+    top:50%;
+    left:50%;
+    height: 300px;
+    align-content: center;
+    margin: -30px 0 0 -40px;
+}

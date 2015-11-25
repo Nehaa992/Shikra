@@ -6,11 +6,12 @@ var timeCurrent = 0;
 var timeComplete = 3600;
 
 var incrementTimer = function() {
-    width = $("#fill").width();
-    var oneSecondWidth = $("#progress").innerWidth()/3600;
-    var newWidth = width + oneSecondWidth;
-    $("#fill").width(newWidth);
-    
+    if (timeCurrent%10==0) {
+        width = $("#fill").width();
+        var oneSecondWidth = $("#progress").innerWidth()/360;
+        var newWidth = width + oneSecondWidth;
+        $("#fill").width(newWidth);
+    }
     if( timeCurrent == timeComplete)
         {
             self.location="Timer_restart.html";
