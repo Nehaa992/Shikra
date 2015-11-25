@@ -1,0 +1,138 @@
+body {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: lighter;
+}
+h1 {
+    color: #262261;
+    font-family: Helvetica;
+    font-size: 28px;
+    margin: 05px;
+    font-weight: lighter;
+}
+p {
+    font-size: 13px; 
+    color: #7D7D7D;
+    margin: 0;
+    font-weight: normal;
+}
+.display{
+    display: inline;
+}
+article {
+    width: 480px;
+    padding: 20px;
+    margin: 0 auto;
+    color: #404041;
+   
+}
+.main{
+    height: 300px;
+    align-content: center;
+    margin: 220px 0 0 0;
+}
+.timer{
+    height: 300px;
+    align-content: center;
+    margin: 300px 0 0 0;
+}
+.logo{
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 40px -105px;
+}
+#pause{
+    display: inline;
+}
+.button {
+    display: inline-block;
+    border-radius:10px;
+    line-height:44px;
+    padding:0 40px;
+    margin: 05px;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: normal;
+    color: #262261;
+    text-decoration: none;
+    
+}
+.blue {
+    border:4px #262261;
+    border-style: double;
+}
+
+.fill:hover {
+  color: white;
+    background: rgba(38, 34, 97, 0.8);
+    transition:0.3s;
+    border:4px white;
+    border-style: double;
+}
+
+
+#progress {
+    display: inline-block;
+    border:solid #262261;
+    border-radius: 13px;
+    height: 04px;
+    width: 300px;
+    padding: 2px;
+    absolute; 
+    top: 0;
+    left: 0;
+}
+
+#fill {
+    display: block;
+    background: #262261;
+    width: 0;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#container{
+    display: inline-block;
+    relative;
+    height: 05px;
+    width: 450px;
+    margin: 0 0 20px 55px;
+}
+#time{
+    display: inline-block;
+    absolute; 
+    top: 0;
+    right: 0;
+}
+#mm{
+    display: inline-block;
+    absolute; 
+    top: 0;
+    right: 0;
+}
+#ss{
+    display: inline-block;
+    absolute; 
+    top: 0;
+    right: 0;
+}
+#compleat {
+    display: inline-block;
+    border:solid #262261;
+    border-radius: 13px;
+    height: 04px;
+    width: 300px;
+    padding: 2px;
+    
+}
+
+#compleat:after {
+    content: '';
+    display: block;
+    background: #262261;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
