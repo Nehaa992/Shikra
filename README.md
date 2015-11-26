@@ -6,6 +6,6 @@ A scientific study states that “Continuously sitting for over 6 hours a day, i
 
 This simple app is made only to alert and remind the user to stand from their seat every hour for a min  and take a walk.
 
-To run this app 
+To run this app- 
 Clone the repository.
-Run Index.html
+Run Index.html.
