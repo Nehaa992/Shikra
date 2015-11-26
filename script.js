@@ -8,9 +8,14 @@ var timeComplete = 3600;
 var incrementTimer = function() {
     if (timeCurrent%10==0) {
         width = $("#fill").width();
-        var oneSecondWidth = $("#progress").innerWidth()/360;
+        var oneSecondWidth = $("#progress").width()/360;
+        
         var newWidth = width + oneSecondWidth;
+        
+        
         $("#fill").width(newWidth);
+        console.log(oneSecondWidth);
+        console.log($("#fill").width());
     }
     if( timeCurrent == timeComplete)
         {
@@ -29,7 +34,14 @@ var incrementTimer = function() {
     if(ss==60) 
     {
         ss= 0;
+        if(ss<10)
+    {
+        document.getElementById("sec").innerHTML ="0"+ ss;
+    }
+    else
+    {
         document.getElementById("sec").innerHTML = ss;
+    }
         mm=mm+1;
         if(mm<10)
         {

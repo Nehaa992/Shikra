@@ -83,7 +83,7 @@ article {
     border:solid #262261;
     border-radius: 13px;
     height: 05px;
-    width: 640px;
+    width: 720px;
     padding: 4px; 
     top: 0;
     left: 0;
@@ -109,7 +109,7 @@ article {
 #container{
     display: inline-block;
     height: 05px;
-    width: 750px;
+    width: 850px;
     margin: 15px 10px 40px 40px;
 }
 #time{
