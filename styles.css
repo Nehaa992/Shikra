@@ -32,15 +32,6 @@ article {
     align-content: center;
     margin: 220px 0 0 0;
 }
-# hurry{
-    position:absolute;
-    top:50%;
-    left:50%;
-    height: 300px;
-    align-content: center;
-    margin: -100px 0 0 -340px;
-    
-}
 .timer{
     position:absolute;
     top:50%;
@@ -106,6 +97,14 @@ article {
     border-radius: 10px;
     transition:width 1s linear;
 }
+#Compleat {
+    display: block;
+    background: #262261;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition:width 1s linear;
+}
 
 #container{
     display: inline-block;
@@ -146,11 +145,3 @@ article {
     border-radius: 10px;
 }
 
-#animation {
-    position:absolute;
-    top:50%;
-    left:50%;
-    height: 300px;
-    align-content: center;
-    margin: -30px 0 0 -40px;
-}

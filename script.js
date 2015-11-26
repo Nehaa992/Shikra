@@ -14,7 +14,7 @@ var incrementTimer = function() {
     }
     if( timeCurrent == timeComplete)
         {
-            self.location="Timer_restart.html";
+            self.location="Time-to-walk.html";
         }
     
     ss=ss+1;
