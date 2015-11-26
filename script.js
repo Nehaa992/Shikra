@@ -57,11 +57,11 @@ var stopTimer = function() {
 
 var toggleTimer = function(){
     var image = document.getElementById('pause');
-    if (image.src.match("play.png")) {
-        image.src = "pause.png";
+    if (image.src.match("Play-Icon.png")) {
+        image.src = "Pause-Icon.png";
         startTimer();
     } else {
-        image.src = "play.png";
+        image.src = "Play-Icon.png";
         stopTimer();        
     }
 }
